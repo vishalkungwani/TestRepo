@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Guru99 Banks test automation suite">
+
+			<listeners>
+			<listener class-name="com.guru.qa.TestListeners.ExtentReportListener" />
+	   <!-- <listener class-name="com.crm.qa.RetryLogic.MyTransformer"/> -->
+			</listeners>
+		
+		    <test name="Guru99 Banks Test Cases">
+		         <classes>
+		         	<class name="com.guru.qa.testcases.LoginPageTest"/>
+		          	  <!-- class name="com.guru.qa.testcases.HomePageTest"/> -->  
+		          </classes>
+		     </test> <!-- Test -->
+</suite> <!-- Suite -->	

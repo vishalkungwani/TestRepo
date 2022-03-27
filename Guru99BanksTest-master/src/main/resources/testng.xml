@@ -1,0 +1,12 @@
+
+<suite name="Guru99 Banks test automation suite">
+    <test name="Guru99 Banks Test Cases">
+         <classes>
+       		  <class name="com.guru.qa.testcases.LoginPageTest"/>
+          	  <class name="com.guru.qa.testcases.HomePageTest"/>
+          	  <class name="com.guru.qa.testcases.NewCustomerPageTest"/>
+          	  <class name="com.guru.qa.testcases.NewAccountPageTest"/>
+              <class name="com.guru.qa.testcases.DepositPageTest"/>    
+         </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->	

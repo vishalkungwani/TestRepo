@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Guru99 Banks test automation suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.guru.qa.TestListeners.ExtentReportListener"/>
+  </listeners>
+  <test name="Guru99 Banks Test Cases(failed)">
+    <classes>
+      <class name="com.guru.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="functionality1Test2"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="setLog4j"/>
+        </methods>
+      </class> <!-- com.guru.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Guru99 Banks Test Cases(failed) -->
+</suite> <!-- Failed suite [Guru99 Banks test automation suite] -->
